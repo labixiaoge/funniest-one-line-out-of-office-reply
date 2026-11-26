@@ -11,11 +11,12 @@ import { dirname } from "node:path";
 
 // One line, written as an out-of-office reply a real person would set.
 // The joke: the narrator isn't just away — they have deliberately gone
-// somewhere with no Wi-Fi, and admit that's the only way ignoring
-// everyone was ever going to work. The laugh lands on the first read,
-// no beach, no inbox, no pet, no "limited access to email".
+// to a cabin with no Wi-Fi and no regrets, and admit that's the only
+// setup where "I'll get back to you" was ever going to be true. The
+// laugh lands on the first read, no beach, no inbox, no pet, no
+// "limited access to email".
 const REPLY =
-  "Out of office. I'm currently ignoring you from a place with no Wi-Fi, which is the only way this was ever going to work.";
+  "Out of office. I'm ignoring you from a cabin with no Wi-Fi and no regrets — the only place 'I'll get back to you' was ever true.";
 
 const outputPath = process.env.OUTPUT_PATH ?? "/output/entry.txt";
 
